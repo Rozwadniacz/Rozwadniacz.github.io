@@ -68,7 +68,7 @@
 	right: 10px;
 	background-color: #d4d4d4;
 	transition: 0.3s;
-	color: rgb(255, 0, 212);
+	color: black;
 }
 .subs:hover{
 	background-color: #555555;

@@ -45,7 +45,7 @@
 }
 .odnosnik{
 	padding: 10px 20px;
-	background-color: #1e0049;
+	background-color: rgb(30, 0, 73);
 	border: none;
 	border-radius: 40px;
 	text-decoration: none;
@@ -74,4 +74,22 @@
 	background-color: #555555;
 	transition: 0.3s;
 	color: white;
+}
+
+
+
+/* footer */
+.stopka{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(30, 0, 73, 0.5);
+	height: 100px;
+	width: 100%;
+
+}
+
+/* main */
+
+.glowna{
+	height: auto;
 }

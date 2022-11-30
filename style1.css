@@ -12,11 +12,19 @@
 	background-size: cover;
 	
 }
+.logo{
+	transition: 0.2s;
+}
 .logo a{
 	color: #FFBF00;
 	font-size: 36px;
 	cursor: pointer;
 	text-decoration: none;
+	
+}
+.logo:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
 }
 .nigger{
 	color: black;
@@ -74,22 +82,30 @@
 	background-color: #555555;
 	transition: 0.3s;
 	color: white;
+	transform: scale(1.05);
 }
 
 
 
 /* footer */
 .stopka{
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	background-color: rgba(30, 0, 73, 0.5);
 	height: 100px;
 	width: 100%;
+	
 
 }
 
+.pasekdolny{
+	padding: 40px;
+	
+}
 /* main */
 
 .glowna{
-	height: auto;
+	margin: 10px;
+	height: 100%;
+
 }

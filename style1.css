@@ -1,0 +1,77 @@
+*{
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/* bottom: 50px; */
+.tlo{
+	height: 200vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(twierdza.png);
+	background-position: center;
+	background-size: cover;
+	
+}
+.logo a{
+	color: #FFBF00;
+	font-size: 36px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.nigger{
+	color: black;
+}
+.pasek{
+	padding: 20px 80px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+}
+.linia{
+	list-style-type: none;
+	text-decoration: none;
+	flex-direction: inline;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.tabela{
+	padding: 5px 50px;
+	align-items: right;
+	font-size: 18px;
+	
+}
+.odnosnik{
+	padding: 10px;
+	background-color: #1e0049;
+	border: none;
+	border-radius: 40px;
+	text-decoration: none;
+	color: #FFBF00;
+	transition: 0.2s;
+	box-shadow:   #FF7000;
+}
+.odnosnik:hover{
+	color: #FF7000;
+	transition: 0.2s;
+}
+
+.subs{
+	border:none;
+	font-size: 26px;
+	height: 60px;
+	width: 170px;
+	padding: 10px;
+	border-radius: 30px;
+	right: 10px;
+	background-color: #d4d4d4;
+	transition: 0.3s;
+	color: black;
+}
+.subs:hover{
+	background-color: #555555;
+	transition: 0.3s;
+	color: white;
+}

@@ -47,7 +47,7 @@
 }
 .tabela{
 	padding: 5px 50px;
-	align-items: right;
+	align-items: top;
 	font-size: 18px;
 	
 }
@@ -101,6 +101,34 @@
 .pasekdolny{
 	padding: 40px;
 	
+	
+}
+.liniadolna{
+	list-style-type: none;
+	flex-direction: inline;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 25%;
+	
+}
+footer a{
+	text-decoration: none;
+	color: #FFBF00 ;
+	transition: 0.2s;
+}
+footer a:hover{
+	color:#FF7000;
+	transition: 0.2s;
+}
+.twarz{
+	position: absolute;
+	right: 5%;
+	bottom: 15%;
+	transition: 1s;
+}
+.twarz:hover{
+	filter: invert(1);
+	transition: 0.3s;
 }
 /* main */
 

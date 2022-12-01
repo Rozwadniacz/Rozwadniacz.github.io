@@ -87,6 +87,7 @@
 	transition: 0.3s;
 	color: white;
 	transform: scale(1.05);
+	cursor: pointer;
 }
 
 
@@ -137,7 +138,7 @@ footer a:hover{
 /* main */
 
 .glowna{
-	margin: 10px;
+	margin: 5%;
 	height: 100%;
 
 }

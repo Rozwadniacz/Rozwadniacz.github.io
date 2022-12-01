@@ -9,13 +9,13 @@ body{
 	
 }
 
-/* bottom: 50px; */
+
 .tlo{
-	height: 200vh;
-	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(twierdza.png);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	height: 229.5vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(twierdza.png) , url(twierdza2.png);
+	background-position: bottom,top;
+	
+	background-repeat: no-repeat,no-repeat;
 	
 }
 .logo{

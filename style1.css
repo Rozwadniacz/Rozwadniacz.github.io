@@ -64,7 +64,7 @@
 	
 }
 .odnosnik{
-	padding: 10px 20px;
+	padding: 12px 25px;
 	background-color: rgb(30, 0, 73);
 	border: none;
 	border-radius: 40px;
@@ -76,7 +76,8 @@
 .odnosnik:hover{
 	color: #FF7000;
 	transition: 0.2s;
-	box-shadow: #FF7000 0 0 20px ;
+	box-shadow:inset #FF7000 0 0 10px, #FF7000 0 0 15px ;
+
 }
 
 .subs{

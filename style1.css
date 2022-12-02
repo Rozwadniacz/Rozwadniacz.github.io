@@ -101,7 +101,7 @@ body{
 	color: black;
 }
 .subs:hover{
-	background-color: #555555;
+	background-color: #383838;
 	transition: 0.3s;
 	color: white;
 	transform: scale(1.05);

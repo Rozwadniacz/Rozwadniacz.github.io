@@ -70,13 +70,15 @@ body{
 }
 .odnosnik{
 	padding: 12px 25px;
-	background-color: rgb(30, 0, 73);
+	background-color: #1e0049;
+	box-shadow: inset #1e0049 0 0 0,  #1e0049 0 0 10px;
 	border: none;
 	border-radius: 40px;
 	text-decoration: none;
 	color: #FFBF00;
 	transition: 0.2s;
-	box-shadow:   #FF7000;
+	
+
 }
 .odnosnik:hover{
 	color: #FF7000;
@@ -158,6 +160,22 @@ footer a:hover{
 .glowna{
 	margin: 5%;
 	height: 100%;
-	
 
+}
+.naglowek_main{
+	font-size: 30px;
+	color: #FFBF00;
+	text-shadow: 0 0 10px black;
+	margin: 20px;
+	position: relative;
+	left:auto;
+	
+}
+.main_main{
+	margin: 15px ;
+	font-size: 20px;
+	padding: 1%;
+	box-shadow: 0 0 20px rgb(20, 20, 20);
+	background-color: rgba(20, 20, 20, 0.5);
+	border-radius: 20px;
 }

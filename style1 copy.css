@@ -1,0 +1,163 @@
+*{
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	position: relative;
+	
+}
+
+
+.tlo{
+	height: 229.5vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(twierdza.png) , url(twierdza2.png);
+	background-position: bottom,top;
+	
+	background-repeat: no-repeat,no-repeat;
+	
+}
+.logo{
+	transition: 0.2s;
+	
+}
+.logo a{
+	color: #FFBF00;
+	font-size: 36px;
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+.logo:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+.logotwarz{
+	height: 36px;
+	padding-left: 5px;;
+}
+.nigger{
+	color: black;
+}
+.pasek{
+	padding: 20px 80px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(19, 19, 19, .4);
+	box-shadow:  0 10px 40px rgba(24, 24, 24, .65);
+	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px) ;
+	border-bottom: solid 2px  rgba(85, 85, 85, 0.6);
+}
+
+.linia{
+	list-style-type: none;
+	text-decoration: none;
+	flex-direction: inline;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.tabela{
+	padding: 5px 50px;
+	align-items: top;
+	font-size: 18px;
+	
+}
+.odnosnik{
+	padding: 12px 25px;
+	background-color: rgb(30, 0, 73);
+	border: none;
+	border-radius: 40px;
+	text-decoration: none;
+	color: #FFBF00;
+	transition: 0.2s;
+	box-shadow:   #FF7000;
+}
+.odnosnik:hover{
+	color: #FF7000;
+	transition: 0.2s;
+	box-shadow:inset #FF7000 0 0 10px, #FF7000 0 0 15px ;
+
+}
+
+.subs{
+	border:none;
+	font-size: 26px;
+	height: 60px;
+	width: 170px;
+	padding: 10px;
+	border-radius: 30px;
+	right: 10px;
+	background-color: #d4d4d4;
+	transition: 0.3s;
+	color: black;
+}
+.subs:hover{
+	background-color: #555555;
+	transition: 0.3s;
+	color: white;
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+
+
+/* footer */
+.stopka{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(23, 0, 54, 0.5);
+	height: 100px;
+	width: 100%;
+	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px) ;
+	box-shadow: 0 -30px 40px rgba(23, 0, 54, 0.5);
+	border-top: solid 2px  rgba(23, 0, 54, 0.3);
+}
+
+.pasekdolny{
+	padding: 30px 20% 0 ;
+	
+
+}
+.liniadolna{
+	list-style-type: none;
+	flex-direction: inline;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 25%;
+	
+	
+}
+footer a{
+	text-decoration: none;
+	color: #FFBF00 ;
+	transition: 0.2s;
+}
+footer a:hover{
+	color:rgb(255, 112, 0);
+	transition: 0.2s;
+}
+.twarz{
+	position: absolute;
+	right: 5%;
+	bottom: 15%;
+	transition: 1s;
+}
+.twarz:hover{
+	filter: invert(1);
+	transition: 0.3s;
+}
+/* main */
+
+.glowna{
+	margin: 5%;
+	height: 100%;
+	
+
+}
